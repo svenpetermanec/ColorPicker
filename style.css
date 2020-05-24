@@ -1,15 +1,30 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #F8F8F8;
 }
 
-#wrapper{
+#wrapper_up{
     position: absolute;
-    left: 40%;
-    top: 40%;
+    left: 15%;
+    width: 70%;
+    height: 8%;
+    background-color: white;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#wrapper_down{
+    position: absolute;
+    top: 8.7%;
+    left: 15%;
+    width: 70%;
+    height: 91.3%;
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 #rgbValue{
-    position: relative;
-    left: 20%;
+    display: none;
 }
