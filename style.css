@@ -6,8 +6,8 @@
 
 #wrapper_up{
     position: absolute;
-    left: 15%;
-    width: 70%;
+    left: 17.5%;
+    width: 65%;
     height: 8%;
     background-color: white;
     border-bottom-left-radius: 6px;
@@ -17,8 +17,8 @@
 #wrapper_down{
     position: absolute;
     top: 8.7%;
-    left: 15%;
-    width: 70%;
+    left: 17.5%;
+    width: 65%;
     height: 91.3%;
     background-color: white;
     border-top-left-radius: 6px;
@@ -27,4 +27,21 @@
 
 #rgbValue{
     display: none;
+}
+
+#color{
+    position: inherit;
+    left: 10%;
+    top:25%;
+    width: 10%;
+    height: 50%;
+}
+
+#rgb{
+    position: inherit;
+    top:25%;
+    left:30%;
+    width: 10%;
+    height: 50%;
+    background-color: white;
 }
